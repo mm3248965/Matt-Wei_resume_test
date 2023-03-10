@@ -1,0 +1,320 @@
+/* * {
+    border: 0.5px solid red;
+} */
+
+body {
+    background-color: rgb(28, 28, 28);
+}
+
+.nav-item:hover {
+    color: azure;
+    background: #DDA81E;
+}
+
+.nav-link:hover {
+    color: rgb(28, 28, 28) !important;
+}
+
+.top {
+    height: 625px;
+    overflow: hidden;
+}
+
+#bannerImage {
+    position: relative;
+    opacity: 0.1;
+    width: 2880px;
+    height: 625px;
+    background-image: url('./cloud1440_625.png');
+    background-repeat: repeat-x;
+    -webkit-animation: rollImage linear 60s infinite;
+    -moz-animation: rollImage linear 60s infinite;
+    -ms-animation: rollImage linear 60s infinite;
+    animation: rollImage linear 60s infinite;
+}
+@keyframes rollImage {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -1440px;
+    }
+}
+
+/* 動畫第二層失敗原因? */
+/* #cloud2{
+    position: relative;
+    opacity: 0.2;
+    width: 2880px;
+    height: 625px;
+    background-image: url('./cloud20.png');
+    background-repeat: repeat-x;
+    -webkit-animation: rollImage2 linear 60s infinite;
+    -moz-animation: rollImage2 linear 60s infinite;
+    -ms-animation: rollImage2 linear 60s infinite;
+    animation: rollImage2 linear 60s infinite; 
+}
+@keyframes rollImage2 {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: -1440px;
+    }
+} */
+
+
+/* FRONT END */
+.container1 {
+    height: 700px;
+    background: var(--background-color) !important;
+    /* color: var(--text-color)!important; */
+    transition: all .5s ease;
+}
+
+:root {
+    --background-color: dark;
+    /* --text-color: #e5eef4; */
+}
+
+header {
+    color: #DDA81E;
+    padding: 40px 40px;
+    font-size: 25px;
+}
+
+header a {
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    margin-left: 850px;
+    opacity: .8;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(161, 161, 161);
+    opacity: 0.1;
+}
+
+.test {
+    width: 900px;
+    height: 550px;
+}
+
+
+/* TECHNOLOGY */
+.container2 {
+    position: relative;
+    height: 800px;
+}
+
+.h1 {
+    color: azure;
+}
+
+.row {
+    height: 200px;
+    width: 500px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    width: 110px;
+    height: 110px;
+}
+
+.html5 {
+    width: 100px;
+}
+
+.html5:hover .html5-img {
+    display: block;
+}
+
+.html5-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+.css3 {
+    width: 100px;
+}
+
+.css3:hover .css3-img {
+    display: block;
+}
+
+.css3-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+.javascript {
+    width: 100px;
+}
+
+.javascript:hover .javascript-img {
+    display: block;
+}
+
+.javascript-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+.illustrator {
+    width: 100px;
+}
+
+.illustrator:hover .illustrator-img {
+    display: block;
+}
+
+.illustrator-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+.photoshop {
+    width: 100px;
+}
+
+.photoshop:hover .photoshop-img {
+    display: block;
+}
+
+.photoshop-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+.figma {
+    width: 100px;
+}
+
+.figma:hover .figma-img {
+    display: block;
+}
+
+.figma-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+.bootstrap {
+    width: 100px;
+}
+
+.bootstrap:hover .bootstrap-img {
+    display: block;
+}
+
+.bootstrap-img {
+    border: 1px solid #DDA81E;
+    position: absolute;
+    top: 175px;
+    left: 550px;
+    width: 550px;
+    height: 500px;
+    display: none;
+}
+
+/* TEAM */
+.container3 {
+    position: relative;
+    height: 600px;
+}
+.carousel {
+    height: 400px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+/* CONTACT */
+.footer {
+    position: relative;
+    height: 200px;
+}
+
+h3{
+    position: absolute;
+    color:#DDA81E;
+    top: 30px;
+    left: 60px;
+}
+
+hr{
+    border: 1px solid #DDA81E;
+}
+
+.fblink {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 975px;
+}
+.fblink:hover{
+    opacity: 0.8;
+}
+
+.iglink {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 1025px;
+}
+.iglink:hover{
+    opacity: 0.8;
+}
+
+.behancelink {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 1075px;
+}
+.behancelink:hover{
+    opacity: 0.8;
+}
